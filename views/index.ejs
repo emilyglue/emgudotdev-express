@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>oh hey</title>
+  <link rel="icon" type="image/png" href="/images/logo.svg" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="navbar" class="gray">
+    <a href="#home"><img class="logo" src="/images/logo_bl.svg" /></a>
+    <nav>
+      <ul class="">
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">resume</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- <div> -->
+  <div class="title">
+    <h1 class="dark">Emily Gu</h1>
+    <h3 class="dark">software engineer <span class="accent">//</span> shaky videographer</h3>
+  </div>
+  <video muted autoplay loop id="home" onclick="this.paused ? this.play() : this.pause();">
+    <source src="/images/home-video.mp4" type="video/mp4">
+  </video>
+  <!-- </div> -->
+
+
+  <section class="light" id="about">
+    <div class="content">
+      <div class="section-header">
+        <h1>Who is She?</h1>
+      </div>
+      <hr />
+      <div class="text">
+        <h4 class="section-subheader">Professionally speaking...</h4>
+        <div class="container">
+          <p>
+            I'm a software engineer with experience in full stack development, but my main interests are in frontend
+            development and design.
+          </p>
+          <img src="/images/profile.jpg" />
+        </div>
+        <hr />
+        <h4 class="section-subheader right">(Un?)professionally speaking...</h4>
+        <div class="container">
+          <img src="/images/derp.jpg" />
+          <p class="right">
+            I'm just a girl trying to figure out what to do with her life.
+          </p>
+        </div>
+        <hr />
+        <p>
+          I was born and raised in Houston, TX, went to NYC for college, and am currently living in the northern
+          Virginia (NOVA) area.
+          Like most people, I love to travel, eat, sleep, and explore. I'm also really into cooking, cardio
+          boxing/kickboxing, and any sort of arts and crafts.
+          I tend to go through phases, picking up and dropping hobbies frequently, but I just really love trying new
+          things 😅
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="dark" id="experience">
+    <div class="content">
+      <div class="section-header">
+        <h1>Experience</h1>
+      </div>
+      <div class="text" id="capital-one">
+        <h2 class="section-subheader">Capital One</h2>
+        <h4 class="section-subheader">Jul 2018 - Present</h4>
+        <p>
+          During my time at Capital One, I've been through a 6 month training program (<a target="_blank"
+            href="https://campus.capitalone.com/coda-program/">CODA</a>), and, as part of the rotational program (<a
+            target="_blank" href="https://campus.capitalone.com/technology-program">TDP</a>), I worked as a full stack
+          developer for one year before switching to my current role as a site reliability engineer. In these roles, I
+          gained experience ranging from design to full stack development to devops.
+        </p>
+        <p>
+          I've worked on many web applications that used Angular 4 or 7 for frontend, Java/Spring, Node/GraphQL, or
+          Python/Django for backend, and Postgres and Elasticsearch for data storing. I also learned how to deploy our
+          applications using AWS, Jenkins, and some Terraform.
+        </p>
+        <!-- <p>
+          At Capital One, there have also been many opportunities for me to network, volunteer, and engage with my community. As a member of the TDP Fun committee, I helped plan and organize monthly social events for associates in the TDP program, as well as monthly virtual events once we had to switch to working from home.
+        </p> -->
+      </div>
+      <div class="text" id="wells-fargo">
+        <h2 class="section-subheader">Wells Fargo</h2>
+        <h4 class="section-subheader">Jun 2017 - Aug 2017</h4>
+        <p>
+          In the summer before my senior year of college, I had the opportunity to intern at Wells Fargo in their Prime
+          Services department. My main project was to implement new charting components to replace an old library that
+          was being used in their client-facing portal. As this was my first job in the technology field, I learned a
+          lot about agile practices, how to work and collaborate with other team members, and how the SLDC really works
+          in a big company.
+        </p>
+      </div>
+      <div class="text" id="tutoring">
+        <h2 class="section-subheader">Tutoring (Various)</h2>
+        <h4 class="section-subheader">2013 - 2018</h4>
+        <p>
+          Ever since high school, I've worked a range of tutoring and after school teaching jobs. I actually started by
+          working for my mom, who, a life long educator, opened up an after school learning center for students K-12.
+          The students I worked with the most there were students who had just come from China to study in the US, so
+          they mainly struggled with the language. I would work with them on English and Language Arts and help them
+          practice for the SAT, ACT, and TOEFL. One summer, we actually even organized a partnership with a summer camp
+          in China, where a few tutors from our tutoring center went to China to help teach English to students in the
+          camp.
+        </p>
+        <p>
+          In college, I worked part time as a student teacher assistant at a local elementary school in New York during
+          my freshman and sophomore years. During my senior year, I was a weekend math teacher at a tutoring center in
+          Brooklyn, and I continued to work there for a few months after I graduated, as well as tutor at the Brooklyn
+          Educational Opportunity Center on the weekdays. While most of my experience was tutoring younger students, at
+          the BEOC I learned how to work with and tutor adults.
+        </p>
+        <p>
+          Honestly, despite getting frustrated many times at students for not understanding, at problems for being too
+          complicated, at myself for not being patient enough, I loved teaching and was always eager to help. Even after
+          all these years of teaching, I still have a ways to go to be a good educator, and though I don't do so much
+          tutoring anymore, education is definitely something I want to do with my career in the future.
+        </p>
+      </div>
+      <div class="text" id="education">
+        <h2 class="section-subheader">New York University</h2>
+        <h4 class="section-subheader">Aug 2014 - Dec 2017</h4>
+        <p>
+          College feels like so long ago 😭, and I can't believe it can be summarized in just 4 bullet points:
+        </p>
+        <ul class="col">
+          <li>B.A. in Mathematics and Computer Science</li>
+          <li>Minor in Teacher Education</li>
+          <li><a target="_blank" href="https://www.instagram.com/nyu.afd/">Asian Fusion Dance</a> (Secretary, then
+            President)</li>
+          <li><a target="_blank" href="https://www.aponyu.org/">Alpha Phi Omega</a> (Rush Committee, Event Planning
+            Committee)</li>
+        </ul>
+      </div>
+      <div class="text" id="certification">
+        <h2 class="section-subheader">Certifications</h2>
+        <p>
+          (Just one, but I'm working on it!)
+        </p>
+        <a href="https://www.youracclaim.com/badges/0194d7c7-db9d-49e9-b539-dcfcc4f83ca8/_url" target="_blank">AWS
+          Solutions Architect Associate</a>
+      </div>
+    </div>
+  </section>
+  <section class="light" id="portfolio">
+    <div class="content">
+      <div class="section-header">
+        <h1>portfolio</h1>
+      </div>
+      <div class="container center">
+        <div class="app col center">
+          <div class="preview"></div>
+          <a class="overlay center" href="/play">
+            <!-- <div class="overlay center"> -->
+            <p>Simple arcade of games built with HTML and jQuery.</p>
+            <!-- </div> -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer col center">
+    <p>let's stay in touch</p>
+    <div class="row contact">
+      <a target="_blank" href="https://www.linkedin.com/in/emily-gu">linkedin</a>
+      <span class="accent">|</span>
+      <a href="mailto:emilyxgu@gmail.com">email</a>
+      <span class="accent">|</span>
+      <a target="_blank" href="https://www.instagram.com/xmmxlee/">food insta</a>
+      <span class="accent">|</span>
+      <a target="_blank" href="https://www.instagram.com/drwmma/">art insta</a>
+    </div>
+  </section>
+</body>
+
+</html>

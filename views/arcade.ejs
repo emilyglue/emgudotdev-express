@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title %></title>
+    <link rel="icon" type="image/png" href="/images/logo.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/arcade.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/minesweepoji.css">
+  </head>
+  <body>
+    <header class="col">
+      <h1>the game stop</h1>
+    </header>
+    <nav class="col">
+      <ul>
+        <li><a type="button" href="/play" id="about">about</a></li>
+        <li><a type="button" href="#" id="minesweepoji">minesweepoji</a></li>
+        <li><a type="button" href="#" id="floopy-bird">floopy</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="preview" id="prv-about">
+        <h2>About</h2>
+        <p>This is an arcade filled with random games to entertain yourself when you're bored.</p>
+        <p><span>HOVER</span> to see a preview displayed here</p>
+        <p><span>CLICK</span> to open a game</p>
+      </div>
+      <div class="preview" style="display:none;" id="prv-ms">
+        <h2>Minesweepoji</h2>
+        <p>Can you sweep all the mines??</p>
+        <img src="/images/sweeper-preview.png">
+      </div>
+      <div class="preview" style="display:none;" id="prv-fb">
+        <h2>Floopy Bird</h2>
+        <p>Test your flooping skills!</p>
+        <img src="/images/floopy-preview.png">
+      </div>
+
+      <h2 id="title"></h2>
+      <canvas id="gameCanvas"></canvas>
+      <div id="board"></div>
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/javascripts/minesweepoji.js"></script>
+    <script src="/javascripts/floopy.js"></script>
+    <script src="/javascripts/main.js"></script>
+  </body>
+</html>

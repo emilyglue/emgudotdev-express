@@ -1,0 +1,68 @@
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+input {
+  margin: 10px auto;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  margin: 1px;
+  height: 50px;
+  width: 50px;
+  border: 5px outset white;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 10px;
+  background-color: lightgray;
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+
+.maybe {
+  background-color: orange;
+}
+
+#error {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  display: none;
+  color: red;
+  text-align: left;
+  font-size: 14px;
+}
+
+#board {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#face {
+  font-size: 30px;
+}
+
+#sound {
+  font-size: 30px;
+}
